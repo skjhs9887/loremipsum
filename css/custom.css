@@ -1,0 +1,128 @@
+body { position: relative; 
+}
+
+
+/* taustan väri */
+ .navbar-custom {
+    background-color: rgba(9, 8, 8, 0.9);
+}
+
+/* brandin ja tekstin väri */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgba(45, 243, 254, 0.9);
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(45, 243, 254, 0.9);
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* Hampurilaiskuvin väri */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(45, 243, 254, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(45, 243, 254, 0.9);
+}
+
+/* Alaverovalikon värit */
+.nav-item .dropdown-menu a:hover {
+    color: white !important;
+    background: pink !important;
+    cursor: pointer;
+}
+
+/* Scroll-spy ja linki väri */
+.nav-link.active {
+    color: white !important;
+}
+
+
+/* Karuselli */
+#demo  {margin-top:60px
+}
+
+.carousel-inner img {
+    max-width: 80%;
+    object-fit: cover; /* Kuvan skaalaus ilman venytystä */
+    margin: auto; /* Varmistaa, että kuvat ovat keskitettyjä */
+}
+
+
+@media (max-width: 600px) {
+    .carousel-caption {
+    display: none;     
+   } 
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232DF3FE' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+    
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+    
+
+
+/* Scroll-spy */
+.nav-link.active {
+    color: white !important;
+}
+
+body { position: relative; 
+}
+
+
+/* Grid */
+#alku, #id1, #id2, #id3, #id4, #id5 {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    }
+
+
+#ruudukonkuva {
+    width: 100%;        /* Kuvan leveys suhteessa sen vanhempielementtiin */
+    max-width: 500px;   /* Kuvan maksimileveys on 500 pikseliä */
+    border-radius: 30% 0 30% 0;  /* Pyöristetään vasen yläkulma ja oikea alakulma 30% */
+}
+
+.col-md-4:nth-child(2) {
+    text-align: center;      /* Keskittää tekstin palstan sisällä */
+}
+
+
+/*Accordion*/
+
+.custom-header {
+    background-color:  rgba(35, 34, 34, 0.9); /* Muuttaa kortin otsikon taustavärin */
+}
+
+.custom-header .btn {
+    color: white; /* Muuttaa kortin otsikon värin */
+    font-size: 1.2rem;  /* Muuttaa kortin otsikon fontin koon hiukan suuremmaksi */
+}
+
+.custom-header .btn:hover {
+    color:rgba(45, 243, 254, 0.9); /* Väri, kun hiiri on tekstin päällä */
+}
+
+.custom-body {
+background-color:  rgba(170, 60, 100, 0.9) ; /* Muuttaa kortin sisällön taustavärin */
+color: #ffffff; /* Muuttaa kortin sisällön tekstin värin */
+}
+
+
+
+
+
+
+  
